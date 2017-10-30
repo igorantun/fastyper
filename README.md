@@ -1,7 +1,8 @@
 # Fastyper
 >Spoiler: Yes, I over engineereed it. On purpose. No regrets.
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/fastyper.svg)](https://github.com/IgorAntun/fastyper/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/fastyper.svg)](https://github.com/IgorAntun/fastyper/issues) [![Live Demo](https://img.shields.io/badge/demo-offline-red.svg)](https://igorantun.com/)
+
+[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/fastyper.svg?style=flat-square)](https://github.com/IgorAntun/fastyper/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/fastyper.svg?style=flat-square)](https://github.com/IgorAntun/fastyper/issues) [![Live Demo](https://img.shields.io/badge/demo-offline-red.svg?style=flat-square)](https://igorantun.com/)
 
 ## Screenshots
 ![Game lobby](https://i.imgur.com/OyYQydk.png)
