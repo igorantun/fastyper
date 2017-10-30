@@ -1,0 +1,36 @@
+.game h2 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.sidebar-player {
+  margin-bottom: 10px;
+}
+
+.sidebar-players {
+  margin-top: 50px;
+}
+
+.sidebar-player-enter {
+  height: 0px;
+  opacity: 0.01;
+  margin-top: 0px;
+}
+
+.sidebar-player-enter.sidebar-player-enter-active {
+  opacity: 1;
+  height: 62px;
+  transition: 700ms;
+}
+
+.sidebar-player-leave {
+  opacity: 1;
+  height: 62px;
+}
+
+.sidebar-player-leave.sidebar-player-leave-active {
+  height: 0px;
+  opacity: 0.01;
+  margin-top: 0px;
+  transition: 700ms;
+}

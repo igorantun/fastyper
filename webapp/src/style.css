@@ -1,0 +1,11 @@
+body {
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}

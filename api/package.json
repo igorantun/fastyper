@@ -1,0 +1,44 @@
+{
+  "name": "fastyper-api",
+  "version": "0.0.1",
+  "description": "Backend API and websocket server for Fastyper",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorAntun/fastyper.git"
+  },
+  "keywords": [
+    "fastyper",
+    "api",
+    "nodejs",
+    "websocket"
+  ],
+  "author": "Igor Antun <igor@antun.me> (https://github.com/IgorAntun)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/IgorAntun/fastyper/issues"
+  },
+  "homepage": "https://github.com/IgorAntun/fastyper#readme",
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-ramda": "1.4.3",
+    "express": "4.16.2",
+    "morgan": "1.9.0",
+    "nodemon": "1.12.1",
+    "ramda": "0.25.0",
+    "socket.io": "2.0.4",
+    "uuid": "3.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "1.6.1",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-pagarme-base": "2.0.0",
+    "eslint-plugin-import": "2.8.0"
+  }
+}

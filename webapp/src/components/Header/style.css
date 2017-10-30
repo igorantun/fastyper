@@ -1,0 +1,19 @@
+header h1 {
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+header hr {
+  width: 50vw;
+
+  border: 0;
+  border-bottom: 1px solid #e9e9e9;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}

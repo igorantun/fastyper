@@ -1,0 +1,49 @@
+.self-avatar {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.self-info {
+  font-size: 13px;
+
+  height: 72px;
+  padding-left: 15px;
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.self-info h2 {
+  line-height: 1;
+  font-weight: 300;
+
+  margin: 0;
+}
+
+.self-ready-switch span {
+  margin-right: 5px;
+}
+
+.self-ranking {
+  line-height: 1;
+  font-size: 36px;
+  font-weight: 100;
+
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  margin-right: 20px;
+}
+
+.self-ranking small {
+  font-size: 60%;
+}
+
+.self-ranking i {
+  font-size: 33px;
+
+  margin-right: 10px;
+}

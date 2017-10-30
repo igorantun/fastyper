@@ -1,0 +1,38 @@
+{
+  "name": "fastyper-web",
+  "version": "0.0.1",
+  "description": "Frontend web application for Fastyper",
+  "main": "index.js",
+  "dependencies": {
+    "antd": "2.13.7",
+    "react": "16.0.0",
+    "react-addons-css-transition-group": "15.6.2",
+    "react-dom": "16.0.0",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.0.14",
+    "socket.io-client": "2.0.4",
+    "text-diff": "1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorAntun/fastyper.git"
+  },
+  "keywords": [
+    "fastyper",
+    "reactjs"
+  ],
+  "author": "Igor Antun <igor@antun.me> (https://github.com/IgorAntun)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/IgorAntun/fastyper/issues"
+  },
+  "homepage": "/"
+}
