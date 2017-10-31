@@ -1,7 +1,7 @@
 # Fastyper
 
 [![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/fastyper.svg?style=flat-square)](https://github.com/IgorAntun/fastyper/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/fastyper.svg?style=flat-square)](https://github.com/IgorAntun/fastyper/issues) [![Live Demo](https://img.shields.io/badge/demo-offline-red.svg?style=flat-square)](https://igorantun.com/)
+[![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/fastyper.svg?style=flat-square)](https://github.com/IgorAntun/fastyper/issues) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg?style=flat-square)](http://198.199.84.175:9000/room/training)
 
 ## Screenshots
 ![Game lobby](https://i.imgur.com/OyYQydk.png)
