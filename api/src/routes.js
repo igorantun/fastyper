@@ -6,7 +6,7 @@ import RoomManager from './classes/RoomManager'
 const router = express.Router()
 
 router
-  .get('/room/:slug/status', (req, res) => {
+  .get('/room/:slug/status', (req, res, next) => {
     const room = RoomManager.find_room(req.params.slug)
 
     if (!room) {
@@ -17,7 +17,7 @@ router
 
     const players = R.map(R.pick(['name', 'ready', 'keystrokes', 'score']), room.players)
 
-    res.json({
+    return res.json({
       slug: room.slug,
       status: room.status,
       created: room.created,
@@ -32,8 +32,8 @@ router
     })
   })
 
-  .get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../webapp/build'))
+  .get('*', (req, res, next) => {
+    res.sendFile(path.join(__dirname, '../../webapp/build/index.html'))
   })
 
 export default router

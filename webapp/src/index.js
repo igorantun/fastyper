@@ -11,4 +11,4 @@ render((
   </BrowserRouter>
 ), document.getElementById('root'))
 
-registerServiceWorker()
+//registerServiceWorker() was causing some cache issues with express routes (api)

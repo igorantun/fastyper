@@ -59,24 +59,36 @@ class Room {
 
   // Mean score among players
   get mean () {
-    return R.mean(R.map(R.prop('score'), this.players))
+    return R.pipe(
+        R.map(R.prop('score')),
+        R.mean,
+      )(this.players)
   }
 
   // Number of players which scores are below the room's mean score
   get below_mean () {
-    return R.filter(R.lt(R.__, this.mean), R.map(R.prop('score'), this.players)).length
+    return R.length(R.pipe(
+      R.map(R.prop('score')),
+      R.filter(R.lt(R.__, this.mean)),
+    )(this.players))
   }
 
   // Array of active players sorted by score from higher to lower (format: [username, score])
   get ranking () {
-    const players = R.map(R.compose(R.values, R.pick(['name', 'score'])))(this.players)
+    const players = R.map(R.pipe(
+      R.pick(['name', 'score']),
+      R.values,
+    ))(this.players)
 
     return R.reverse(R.sortBy(R.last)(players))
   }
 
   // Array of active players sorted by score from higher to lower (format: [id, score])
   get id_ranking () {
-    const players = R.map(R.compose(R.values, R.pick(['id', 'score'])))(this.players)
+    const players = R.map(R.pipe(
+      R.pick(['id', 'score']),
+      R.values,
+    ))(this.players)
 
     return R.reverse(R.sortBy(R.last)(players))
   }

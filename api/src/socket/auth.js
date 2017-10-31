@@ -7,11 +7,15 @@ const auth = (packet, next, token) => {
     R.head
   )(packet)
 
-  if (received === token) {
-    next()
-  } else {
-    next(new Error('Authentication error'))
-  }
+  const verify = R.ifElse(
+    R.equals,
+    R.always(null),
+    R.always(new Error('Authentication error'))
+  )(token)
+
+  console.log(received, token, verify(received))
+
+  return next(verify(received))
 }
 
 export default auth

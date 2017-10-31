@@ -47,7 +47,7 @@ class App extends Component {
                     path={`${props.match.path}/username/:name`}
                     render={props => <Game {...props} socket={socket} token={token} />}
                   />
-                  <Redirect to={`/room/training/username/guest_${Date.now()}`}/>
+                  <Redirect to={`/room/${props.match.params.room}/username/guest_${Date.now()}`}/>
                 </Switch>}
             />
             <Redirect to={`/room/training/username/guest_${Date.now()}`}/>
