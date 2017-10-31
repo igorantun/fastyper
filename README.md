@@ -6,6 +6,9 @@
 ## Screenshots
 ![Game running](https://i.imgur.com/VJlD30E.png)
 
+## Demo
+You can check out a fully working demo [here](http://198.199.84.175:9000/room/training)
+
 ## Setup
 > How to install and get the game up and running
 
@@ -33,6 +36,14 @@ Great! Now, if everything worked fine, we should be able to access the app at `l
 ### Get room status
 *URL:* `localhost:9000/room/[ROOM_NAME]/status`   
 *Example:* Get status for the `practicing` room: `localhost:9000/room/practicing/status`
+
+## To do:
+- [ ] End game when 60s have passed
+- [ ] Game finished screen
+- [ ] Reset room state when game ends
+- [ ] Show diff between what was typed and original text (frontend)
+- [ ] Calculate score based on precision
+- [ ] Kick inactive users (afk)
 
 ## License
 >You can check out the full license [here](https://github.com/IgorAntun/fastyper/blob/master/LICENSE.md)
