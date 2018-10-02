@@ -38,7 +38,7 @@ class User extends Component {
           alt={name}
           shape='square'
           className='self-avatar'
-          src={`https://api.adorable.io/avatars/96/${name}`}
+          src={`https://api.adorable.io/avatars/96/${token}`}
         />
 
         <div className='self-info'>

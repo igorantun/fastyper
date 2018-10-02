@@ -107,7 +107,7 @@ class Game extends Component {
                       players={players.length + 1}
                       score={ranking[player.id] ? ranking[player.id].score : 0}
                       position={ranking[player.id] ? ranking[player.id].position : 0}
-
+                      token={token}
                       style={{marginBottom: 10}}
                       key={player.id} running={running}
                     />

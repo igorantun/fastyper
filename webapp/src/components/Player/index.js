@@ -14,7 +14,7 @@ const Player = (props) =>
       size='large'
       shape='square'
       alt={props.name}
-      src={`https://api.adorable.io/avatars/40/${props.name}`}
+      src={`https://api.adorable.io/avatars/40/${props.token}`}
     />
 
     <div className='player-info'>
